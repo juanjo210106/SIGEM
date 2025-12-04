@@ -28,6 +28,7 @@ class Empleado:
         else:
             print(f"El emplado {e.nombre} ya ha sido despedido el {e.fecha_salida}")
 
+"""
 emp1 = Empleado(1, "Kirri", 19, "Informático", 1200, "2024-10-06", "kirriecentia@gmail.com", "693 384 189", "Carretera los olivares", "7 horas", True, None)
 emp2 = Empleado(2, "Rafa", 19, "Freelance", 1100, "2023-12-01", "rafaecentia@gmail.com", "693 384 189", "Carretera los olivares", "6 horas", True, None)
 
@@ -38,6 +39,8 @@ print("")
 print("Despidiendo empleados...")
 emp1.despedir()
 emp2.despedir()
+
+"""
 
 
 
