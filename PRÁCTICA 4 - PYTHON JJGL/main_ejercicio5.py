@@ -1,7 +1,7 @@
 from Empleado import Empleado
 from Empresa import Empresa
 
-# Lista para guardar las empresas (Pág 18: Listas)
+# Lista para guardar las empresas
 empresas = []
 
 def gestionar_empresa(emp):
@@ -89,7 +89,7 @@ def menu_principal():
                 dir = input("Dirección: ")
                 
                 nueva = Empresa(nom, dir, "", "", "", [])
-                empresas.append(nueva) # (Pág 18)
+                empresas.append(nueva) 
 
             case "2":
                 # Usamos range y len para mostrar índice
